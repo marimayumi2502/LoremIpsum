@@ -1,0 +1,54 @@
+.title{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+
+.btn-pink{
+    border: 3px solid #e40f99;
+    padding: 5px 30px;
+    background-color: #dc1482;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: .5s;;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #080204;
+}
+
+.btn-blue{
+    border: 3px solid #04042e;
+    padding: 5px 30px;
+    background-color: #04042e;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: .5s;
+    color: #fff;
+}
+
+.box{
+    
+    border: 3px solid transparent;
+    padding: 20px;
+    border-radius: 9px;
+    border-image: linear-gradient(to right, rgb(255, 0, 102), rgb(0, 6, 128), rgb(255, 0, 195)); /* Cria o degradê na borda */
+    border-image-slice: 1;
+    
+   
+    
+   
+}
+
+.icon{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.text{
+    color: #808080;
+
+}
